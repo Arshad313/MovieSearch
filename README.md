@@ -11,10 +11,6 @@ This project is a movie streaming user interface built with React. It allows use
 - **Add/Remove Favorites**: Users can add or remove movies from their favorites list.
 - **View Favorite Movies**: Displays the user's favorite movies stored in local storage.
 
-
-
-
-
 Ensure you have the following installed on your system:
 
 - Node.js (version 14 or later)
@@ -25,9 +21,9 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
 2. Install the dependencies:
-  npm install
-  npm install react-router-dom@latest
-  npm install react-icons
+  - npm install
+  - npm install react-router-dom@latest
+  - npm install react-icons
   
 3. Start the development server:
   npm start
