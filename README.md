@@ -20,11 +20,15 @@ Ensure you have the following installed on your system:
 - Node.js (version 14 or later)
 - npm (version 6 or later)
 
+
 ### Installation
 
 1. Clone the repository:
 2. Install the dependencies:
   npm install
+  npm install react-router-dom@latest
+  npm install react-icons
+  
 3. Start the development server:
   npm start
 
