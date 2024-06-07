@@ -1,0 +1,38 @@
+.movie-card {
+    position: relative;
+    width: 150px;
+    margin: 10px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .favourite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .movie-info h3 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .movie-info p {
+    font-size: 14px;
+    color: gray;
+  }
+  

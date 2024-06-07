@@ -1,0 +1,120 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header input {
+  padding: 10px;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.favorites-btn {
+  padding: 10px 20px;
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  
+  
+}
+
+.hero img {
+  width: 95%;
+  height: 600px;
+  border-radius: 10px;
+  object-position: center;
+}
+  
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.watch-trailer-btn {
+  padding: 10px 20px;
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie-list {
+padding: 20px;
+margin: 0px 80px;  
+}
+
+.movie-list h2 {
+  margin-bottom: 20px;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.movie-card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.app header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.app header input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px;
+}
+
+.app header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.app header nav a:hover {
+  text-decoration: underline;
+}

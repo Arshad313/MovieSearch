@@ -1,0 +1,39 @@
+.hedr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    color: rgb(24, 23, 23);
+  }
+  
+ 
+  
+  .hedr input {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .hedr nav  {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    gap: 20px ;
+  }
+
+  .hedr nav a{
+    margin: 10px;
+    font-weight: 100;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .hedr nav a:hover{
+    text-decoration: underline;
+
+  }
+  
+
+  
+  
